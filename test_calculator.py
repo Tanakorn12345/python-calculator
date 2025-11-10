@@ -27,7 +27,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(5 , 5 ) , 25)
     
     def test_multii(self):
-        self.assertEqual(self.calc.multiply(6 , 5 ) , 30 )
+        self.assertEqual(self.calc.multiply(3 , 7 ) , 21 )
     
     def test_divi(self):
         self.assertEqual(self.calc.divide(4, 2 ) , 2 )
